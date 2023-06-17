@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  padding: 20px 20px;
+  background: black;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar .logo {
+  margin-left: 60px;
+  font-size: 30px;
+  border-bottom: 2px solid black;
+  font-family: "Dosis", sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+.navbar .menu {
+  display: flex;
+  margin-right: 60px;
+  gap: 50px;
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+.navbar .menu a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.navbar .menu a:hover {
+  transform: scaleX(1.1);
+  transform: scaleY(1.1);
+  font-weight: bold;
+}
+
+.sec-container {
+  display: flex;
+  /* border: 1px solid black; */
+  padding: 160px;
+  gap: 400px;
+  background: linear-gradient(to right, #a29fb2, #76acc6);
+  /* background-image: url("../img/background.png");
+  background-size: cover;
+  background-position: center; */
+}
+
+.designer .coder {
+  flex: 1;
+}
+
+.designer h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 34px;
+  font-family: "Dancing Script", cursive;
+}
+
+.coder h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 34px;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.designer p,
+.coder p {
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+}
+
+img .left,
+img .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  color: white;
+  background: black;
+}
+
+.footer h3 {
+  font-size: 34px;
+  font-family: "Dosis", sans-serif;
+  margin-top: 30px;
+}
+
+.footer p {
+  font-family: "Dosis", sans-serif;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
