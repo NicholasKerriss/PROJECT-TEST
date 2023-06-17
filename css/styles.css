@@ -115,3 +115,45 @@ img .right {
   font-size: 22px;
   margin-bottom: 30px;
 }
+
+@media (max-width: 767px) {
+  .sec-container {
+    flex-direction: column;
+    padding: 80px;
+    gap: 40px;
+  }
+
+  .sec-container .designer,
+  .sec-container .coder {
+    padding: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar .logo,
+  .navbar .menu {
+    font-size: 16px;
+  }
+
+  .sec-container {
+    padding: 40px;
+  }
+
+  .designer h1,
+  .coder h2 {
+    font-size: 24px;
+  }
+
+  .designer p,
+  .coder p {
+    font-size: 16px;
+  }
+
+  .footer h3 {
+    font-size: 24px;
+  }
+
+  .footer p {
+    font-size: 18px;
+  }
+}
